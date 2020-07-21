@@ -1,6 +1,5 @@
- #javaScript 
-var charicter = documentgetElementById("charicter");
-var block = document.getElementBYId("block");
+var charicter = document.getElementById("charicter");
+var block = document.getElementById("block");
 function jump(){
 character.classList.add("animate");
 setTimeout(function(){
